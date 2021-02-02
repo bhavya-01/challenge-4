@@ -1,0 +1,303 @@
+/* css code */
+
+/* making the scroll behaior smooth when clicked on about in the navbar */
+html{
+    scroll-behavior: smooth;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+.dropdown:hover{
+  background-color: cadetblue;
+}
+  /* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    align-items: center;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(206, 204, 204);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+    font-size: 20px;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* styling navbar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    margin-bottom:10px ;
+}
+      
+
+
+/* styling a tag in navbar */
+nav a {
+    text-decoration:none;
+    font-size: 30px;
+    font-style: bold;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    color: white;
+}
+
+/* styling image with id (img) */
+#img{
+    float: left;
+    width: 180px;
+    margin-right: 10px;
+  
+}
+
+/* giving bg img to the body */
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRSRWIlqxFndiZxHUXh_GXwiugyfu8U_rmsQ&usqp=CAU);
+    
+}
+section{
+    position: relative;
+    top: 65px;
+}
+
+/* styling paragraph1 */
+.para1{
+    float: right;
+    color: white;
+    font-weight: bold;  
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(62, 79, 82, 0.767);
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* styling paragraph 2  */
+.para2{
+    float: left;
+    color: white;
+    font-weight: bold;  
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(62, 79, 82, 0.767);
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* making image 2 to float right */
+#img2{
+    float: right;
+}
+
+/* styling paragraph 3  */
+.para3{
+    float: right;
+    color: white;
+    font-weight: bold;  
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(62, 79, 82, 0.767);
+    font-size: 25px;
+    margin: 10px;
+}
+
+/* making image 3 to float left */
+#img3{
+    float: left;
+    margin-right: 10px;
+}
+#img4{
+    float: right;
+}
+.para4{
+    float: left;
+    color: white;
+    font-weight: bold;  
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(62, 79, 82,0.767);
+    font-size: 25px;
+    margin: 10px;
+}
+#img5{
+    float: left;
+    margin-right:10px;
+}
+.para5{
+    float: left;
+    color: white;
+    font-weight: bold;  
+    border: solid white;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(62, 79, 82,0.767);
+    font-size: 25px;
+    margin: 10px;
+}
+@media only screen and (max-width: 768px){
+
+    .dropdown .dropbtn{
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    nav a{
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    #img{
+        float: left;
+        width: 130px;
+        margin-right: 10px;
+      
+    }
+    #img2{
+        float: right;
+        width: 130px;
+        height: 100px;
+    }
+    #img3{
+        float: left;
+        width: 130px;
+        height: 130px;
+    }
+
+    .para1{
+        float: right;
+        color: white;
+        font-weight: bold;  
+        border: solid white;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+        margin: 5px;
+    }
+    
+    /* styling paragraph 2  */
+    .para2{
+        float: left;
+        color: white;
+        font-weight: bold;  
+        border: solid white;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+        margin: 5px;
+    }
+    
+
+    
+    /* styling paragraph 3  */
+    .para3{
+        float: right;
+        color: white;
+        font-weight: bold;  
+        border: solid white;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+        margin: 5px;
+    }
+    #img4{
+        float: right;
+        width:130px;
+        height:110px;
+    }
+    .para4{
+        float: left;
+        color: white;
+        font-weight: bold;  
+        border: solid white;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+        margin: 5px;
+    }
+    #img5{
+        float: left;
+        margin-right:10px;
+        height:100px;
+    }
+    .para5{
+        float: left;
+        color: white;
+        font-weight: bold;  
+        border: solid white;
+        border-width: 5px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+        margin: 5px;
+    }
+
+
+}
+
+#hover:hover{
+    background-color: rgb(226, 243, 210);
+  color:black;
+}
+#hov:hover{
+    background-color: rgb(226, 243, 210);
+  color:black
+}
+#hove:hover{
+    background-color: rgb(226, 243, 210);
+  color:black;
+}
